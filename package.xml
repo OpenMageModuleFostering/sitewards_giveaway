@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package>
+    <name>sitewards_giveaway</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/gpl-license.php">GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This magento extension provides functionality for handling giveaway products in the shop.</summary>
+    <description>Customization&#xD;
+-------------&#xD;
+&#xD;
+You can adjust following behaviour:&#xD;
+* Define products as giveaways&#xD;
+* Change allowed amount of giveaway products per cart&#xD;
+* Decide if the customer should be forwarded to giveaway overview page after adding a product to the cart &#xD;
+&#xD;
+Installation instruction&#xD;
+------------------------&#xD;
+&#xD;
+1. Install and activate the extension&#xD;
+2. Edit products you want to be available as giveaways. Price of these products should be 0, but can be higher if required&#xD;
+3. Change the giveaway-attribute of these products to "yes"&#xD;
+4. If needed, adjust the allowed amount of giveaway products per cart in the configuration section </description>
+    <notes>First release</notes>
+    <authors><author><name>Sitewards Magento Team</name><user>sitewards</user><email>magento@sitewards.com</email></author></authors>
+    <date>2013-02-06</date>
+    <time>10:50:53</time>
+    <contents><target name="magecommunity"><dir name="Sitewards"><dir name="Giveaway"><dir name="Block"><dir name="Checkout"><dir name="Cart"><file name="Sidebar.php" hash="5253c8684ac81739e4ef844b4a8256e5"/></dir><file name="Links.php" hash="385d0a4351445086d36db43eafc41889"/><dir name="Multishipping"><file name="Link.php" hash="ee5179d4b013ceab59ccf3574cde2bca"/></dir><dir name="Onepage"><file name="Link.php" hash="4e76c136d314206ba44c88e222032311"/></dir></dir><dir name="Product"><dir name="List"><file name="Giveaway.php" hash="d387dc272607dd9fb5799d6811dd4b1a"/></dir><file name="ListTitle.php" hash="133048adeb2fb03da81445719a984fea"/></dir></dir><dir name="Helper"><file name="Data.php" hash="4a62d7daceffa80ddcbf108089107f75"/></dir><dir name="Model"><file name="Observer.php" hash="80728f02442ca2b6b8ceee0a01201bcf"/><dir name="Resource"><dir name="Eav"><dir name="Mysql4"><file name="Setup.php" hash="27b268c161c0c3ebbedada6e9cd78d27"/></dir></dir></dir><dir name="System"><dir name="Config"><dir name="Product"><file name="Identifier.php" hash="20c9c69bd43019c3bd56b568ed521aad"/></dir></dir></dir></dir><dir name="controllers"><file name="CartController.php" hash="6224f8ce2a8b8ae81d4b7fa594bf4bf9"/><file name="IndexController.php" hash="7b1a51d0924883992318bb3d72dd1fa5"/></dir><dir name="etc"><file name="adminhtml.xml" hash="69a88bc583b6a811f47fbd33196f036b"/><file name="config.xml" hash="a5d13c3ad028a1694b4d2a994330086c"/><file name="system.xml" hash="13ae3261b97f8ae704d85096e21c5da1"/></dir><dir name="sql"><dir name="sitewards_giveaway_setup"><file name="mysql4-install-1.0.0.php" hash="2df441a6f1f7a7be6734c0e9105fda17"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="sitewards"><file name="giveaway.xml" hash="cfb9a1785d6f4be7ce980984513ff296"/></dir></dir><dir name="template"><dir name="sitewards"><dir name="giveaway"><dir name="catalog"><dir name="product"><file name="list_title.phtml" hash="9721358bb3d1e3a9586cf4366a8475f8"/></dir></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Sitewards_Giveaway.xml" hash="bf14932448cc724744ce93ac06226b5e"/></dir></target><target name="magelocale"><dir name="de_DE"><file name="Sitewards_Giveaway.csv" hash="db5754d5d983abeb4d9efee07b13476e"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

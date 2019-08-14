@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/sitewards_giveaway",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "This magento extension provides functionality for handling giveaway products in the shop.",
+    "authors": [
+    {
+        "name": "Sitewards Magento Team",
+        "email": "magento@sitewards.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
